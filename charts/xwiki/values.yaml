@@ -403,7 +403,7 @@ hostAliases: []
 #    - "bar.remote"
 
 # Custom configuration files for xwiki
-customConfigs:
+customConfigs: []
   # Properties key that exists, replace in line is done with value here defined.
   # If key don't exists, this key and value will be appended in that specific file.
   # This files are list of key: value that are translated as key=value in that file.
@@ -413,7 +413,7 @@ customConfigs:
     #
 
 # Secrets for custom configuration files for xwiki
-customConfigsSecrets:
+customConfigsSecrets: []
   # Properties key that exists, replace in line is done with value here defined.
   # If key don't exists, this key and value will be appended in that specific file.
   # The following example will set xwiki.superadminpassword in the file xwiki.cfg
@@ -429,7 +429,7 @@ customConfigsSecrets:
   #       key: "keyinsecret"
 
 # Properties to be passed to Java process with -D parameters using JAVA_OPTS
-properties:
+properties: []
   # "key": "value"
 
 # Init containers for the xwiki deployment/statefullSet
